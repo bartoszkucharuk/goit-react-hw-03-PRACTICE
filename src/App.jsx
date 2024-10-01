@@ -36,7 +36,7 @@ function App() {
 
   return (
     <>
-      {filter}
+      <h1>filter value: {filter}</h1>
       <Form addTask={addTask} />
       <Filter handleFilterChange={handleFilterChange} value={filter} />
       <TasksList tasks={visibleTasks} deleteTask={deleteTask} />
